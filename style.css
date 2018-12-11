@@ -1,0 +1,111 @@
+/*
+
+Theme Name : Simple
+Author: Diego Parte
+Author URI: your personal website
+Description: Very Simple Wordpress Theme
+Version: 1.0
+!-Preview-picture must be name screenshot.png!
+
+
+*/
+
+body {
+	background:rgba(10,15,150,0.5);
+	font-family: 'Roboto', sans-serif;
+	margin:0;
+	padding: 0;
+	/*line-height es la separacion entre lineas*/
+	line-height: 1.7em;
+}
+header {
+	background:rgba(15,150,15,0.5);
+	padding:20px 10px;
+
+}
+.entity {
+	font-size: 30px;
+}
+
+.container {
+	width: 1020px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color:#445566;
+}
+
+.button {
+	background-color: lightgray;
+	padding:5px;
+
+}
+
+.post {
+	border-bottom: 1px solid black;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.clr {
+	clear: both;
+}
+
+.sidebar {
+	float:right;
+	width: 25%;
+}
+
+.main {
+	float:left;
+	width: 70%;
+}
+
+.mainNav {
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+}
+
+.mainNav li {
+	list-style: none;
+	display: inline-block;
+	padding:10px;
+	/*height: 50px;*/
+	/*padding-right: 15px;*/
+}
+
+.mainNav ul {
+	display: inline-block;
+}
+
+
+.mainNav a {
+	color: #fff;
+	text-decoration: none;
+	padding-right: 15px;
+
+}
+
+
+.mainNav a:hover {
+	color: rgba(230, 105, 130,0.9);
+	text-decoration: none;
+}
+
+
+.footer {
+	margin-top: 100px!important;
+	background:rgba(128,128,12,0.5);
+	padding:10px;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+	border:3px dotted rgba(0,0,0,0.3);
+	/*text-align: center;*/
+}
+
+footer .container {
+	margin:0 30px;
+}
